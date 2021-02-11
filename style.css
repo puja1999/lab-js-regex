@@ -1,16 +1,26 @@
-   
-div {  
+  
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box; 
-    width: 100%; 
-    border: 100px solid black; 
-} 
-   
-form {                                         
-    margin: 0 auto; 
-    width: 600px;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form {
+    padding-top: 30px;                                         
+    margin: 0 auto;
+    height: 500px; 
+    width: 700px;
     text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
+    border: 1px Solid silver;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 form>p{
@@ -27,3 +37,17 @@ input{
 .alert{
     color: red;
 }
+
+
+input[type=submit] {
+    margin-top: -2px;
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    background-color: orangered;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
